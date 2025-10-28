@@ -15,7 +15,7 @@ pipeline{
         }
     post{
         always{
-            archiveArtifacts 'artifact.txt. out/**'
+            archiveArtifacts artifacts :'artifact.txt. out/**'
         }
     }
 }
