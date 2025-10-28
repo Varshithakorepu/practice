@@ -1,5 +1,5 @@
 pipeline{
-    agent win
+    agent {label 'win'}
     stages{
         stage('Build and Run'){
             steps{
